@@ -1,6 +1,3 @@
-// server.js - Main server file for the MERN blog application
-
-// Import required modules
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -75,4 +72,4 @@ process.on('unhandledRejection', (err) => {
   process.exit(1);
 });
 
-module.exports = app; 
+module.exports = app;
